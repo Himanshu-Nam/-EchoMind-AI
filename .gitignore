@@ -1,0 +1,84 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.*
+
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# Chroma DB / Vector DB
+# (VERY IMPORTANT - local embeddings store)
+# =========================
+db/
+chroma/
+chroma_db/
+vectorstore/
+*.sqlite3
+
+# =========================
+# Audio / Video files
+# =========================
+downloads/
+downloades/
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.webm
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# =========================
+# Whisper / ML Cache
+# =========================
+.cache/
+torch/
+model_cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Jupyter (if used later)
+# =========================
+.ipynb_checkpoints/
