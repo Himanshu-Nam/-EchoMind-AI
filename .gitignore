@@ -82,3 +82,6 @@ Thumbs.db
 # Jupyter (if used later)
 # =========================
 .ipynb_checkpoints/
+
+cookies.txt
+*.txt
